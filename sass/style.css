@@ -22,8 +22,15 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 65px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1.88px;
+}
+
 h3 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 75px;
   text-transform: uppercase;
@@ -83,6 +90,7 @@ nav h2 {
   font-size: 24px;
   color: #fed136;
   font-family: 'Pacifico', cursive;
+  font-style: italic;
 }
 
 /*header*/
@@ -177,5 +185,40 @@ header::after {
 
 .portfolio .portfolio-content {
   background-color: #ffffff;
-  margin: 25px 0 25px 0;
+  margin: 25px 0;
+}
+
+/*footer*/
+footer .wrapper {
+  padding: 10px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .wrapper .footer-icon {
+  flex-basis: 500px;
+}
+
+footer .wrapper i {
+  font-size: 20px;
+  width: 55px;
+  height: 55px;
+  color: #ffffff;
+  background-color: #000;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 55px;
+}
+
+/*media*/
+@media (max-width: 767px) {
+  header h1 {
+    font-size: 24px;
+  }
+  header h2 {
+    font-size: 16px;
+  }
+  .services-box {
+    flex-direction: column;
+  }
 }
