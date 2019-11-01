@@ -32,8 +32,21 @@ h3 {
 
 h4 {
   color: #777777;
-  font-size: 16px;
   font-style: italic;
+  font-size: 17px;
+}
+
+p {
+  color: #737373;
+  font-size: 14px;
+  font-style: italic;
+}
+
+h5 {
+  color: #333333;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.45px;
 }
 
 /*navigation*/
@@ -150,4 +163,19 @@ header::after {
   border-width: 4px;
   border-radius: 50px;
   line-height: 55px;
+}
+
+/*portfolio*/
+.portfolio {
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.portfolio .wrapper {
+  justify-content: space-between;
+}
+
+.portfolio .portfolio-content {
+  background-color: #ffffff;
+  margin: 25px 0 25px 0;
 }
